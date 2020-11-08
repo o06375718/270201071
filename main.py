@@ -1,10 +1,8 @@
-a= int(input("Enter  number"))
-b= int(input("Enter number"))
-c= int(input("Enter number"))
-if b<a :
-    print(b)
-elif c<b:
-    print(c)
-elif a<c :
-    print(a)
-print("Minimum number:",min(a,b,c))
+age= int(input("How old are you?"))
+ticket=3
+if age<6 and age>60:
+    print("Your ticket is free")
+elif  6<= age <= 18 :
+    print("Your ticket cost:",ticket/2)
+else  :
+    print("Your ticket cost:",3) 
