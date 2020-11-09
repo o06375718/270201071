@@ -1,8 +1,8 @@
-age= int(input("How old are you?"))
-ticket=3
-if age<6 and age>60:
-    print("Your ticket is free")
-elif  6<= age <= 18 :
-    print("Your ticket cost:",ticket/2)
-else  :
-    print("Your ticket cost:",3) 
+number= int(input("Enter a number:"))
+if number<10 :
+   totals =number
+else :
+  ones= number %10 
+  tens=( number//10)%10
+  totals = ones +tens
+  print("The sum of last two digit",totals)
