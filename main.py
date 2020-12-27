@@ -1,17 +1,10 @@
-travelling=int("Yes/No")
-while travelling=="Yes":
-   num=int(input("number of people travelling"))
-   for travel in range(1,num+1):
-      name=input("Please enter a name")
-
-      age=input("Please enter age:")
-
-      sex=input("Male/Female")
-
-      print(name)
-
-      print(age)
-
-      print(sex)
-      
-travelling=input("Ooops Forgot someone")    
+a= int(input("Enter  number"))
+b= int(input("Enter number"))
+c= int(input("Enter number"))
+if b<a :
+    print(b)
+elif c<b:
+    print(c)
+elif a<c :
+    print(a)
+print("Minimum number:",min(a,b,c))
