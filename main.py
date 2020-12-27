@@ -1,10 +1,10 @@
-a= int(input("Enter  number"))
-b= int(input("Enter number"))
-c= int(input("Enter number"))
-if b<a :
-    print(b)
-elif c<b:
-    print(c)
-elif a<c :
-    print(a)
-print("Minimum number:",min(a,b,c))
+fac=1
+x= int(input("Enter an number:"))
+if x<0:
+  print("Please enter an positive numbers")
+elif x==0:
+  fac=1
+else:
+      for i in range(1,x+1):
+       fac=fac*i
+print(fac)
