@@ -1,3 +1,5 @@
+
+#######SUM OF LİST#####
 """def sum_list(given_list):
   sum=0
   for i in given_list:
@@ -6,7 +8,7 @@
 given_list=[12,-7,5,-89.4,3,27,56,57.3]
 sum=sum_list(given_list)
 """
-
+#####is_prime_or_not and print_prime_numbers_between#######
 """def is_prime_or_not(num1):
     count=0
     for i in range(2,num1):
@@ -91,6 +93,7 @@ def main():
   print(list3)
 
 main()
+#######binary_to_dec and dec_to_binary######
 """
 def binary_to_dec(n):
   d=0
@@ -111,6 +114,7 @@ def dec_to_binary(d):
 print(dec_to_binary(34))
 #100010
 #010001
+
 
 
 
