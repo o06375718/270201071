@@ -113,8 +113,41 @@ def dec_to_binary(d):
   
 print(dec_to_binary(34))
 #100010
-#010001
+#010001"""
 
+#####Password Checker######
+"""def password_checker(n):
+  level = 0
+  letters = 0
+  numbers = 0
+  specials = 0
+  special_characters = "!@ # $%^&*()-+?_=,<>/"
+  if  " " in n or len(n) < 8 :
+    return level
+
+  for char in n:
+    if char.isalpha():
+        letters += 1
+        if char.isnumeric():
+            numbers += 1
+            if char in special_characters:
+                 specials+=1
+
+
+    if letters > 0:
+         level += 1
+    if numbers > 0:
+          level += 1
+    if specials > 0:
+       level += 1
+    return level
+
+def main():
+  n = input("Enter password: ")
+  print("Security level:", password_checker(n))
+
+main()
+"""
 
 
 
